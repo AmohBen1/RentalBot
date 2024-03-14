@@ -30,7 +30,7 @@ def main(username, password):
     driver = get_driver()
     try:
         # Log in
-        login_to_site(driver, username, password, "https://realestate.dartmouth.edu/dartmouth-rentals", "benjamin.k.amoh.th@dartmouth.edu", "Elyon@jehowa0", "login_button_id")
+        login_to_site(driver, username, password, "https://realestate.dartmouth.edu/dartmouth-rentals", "*******", "********", "login_button_id")
 
         # Fill out and submit the form
         form_details = {
@@ -46,6 +46,6 @@ def main(username, password):
         driver.quit()
 
 if __name__ == "__main__":
-    USERNAME = 'benjamin.k.amoh.th@dartmouth.edu'
-    PASSWORD = 'Elyon@jehowa0'
+    USERNAME = '********'
+    PASSWORD = '***********'
     main(USERNAME, PASSWORD)

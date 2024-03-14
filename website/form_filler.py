@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 def get_driver():
-    service = Service('chromedriver-mac-x64/chromedriver')
+    service = Service('***********')
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
     options.add_argument('--no-sandbox')  # Bypass OS security model
@@ -73,8 +73,8 @@ def main(username, password):
         driver.quit()
 
 if __name__ == "__main__":
-    USERNAME = 'benjamin.k.amoh.th@dartmouth.edu'
-    PASSWORD = 'Elyon@jehowa0'
+    USERNAME = '********'
+    PASSWORD = '*******'
     main(USERNAME, PASSWORD)
 
 

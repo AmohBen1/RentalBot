@@ -10,7 +10,7 @@ import time
 from datetime import datetime
 
 # WebDriver path setup
-DRIVER_PATH = '/Users/mac/Bot/chromedriver-mac-x64/chromedriver'
+DRIVER_PATH = '********'
 
 def get_driver():
     # options = Options()
