@@ -5,11 +5,11 @@ from website.form_filler import *
 from form_filler import *
 from main import *
 
-consumer_key = os.getenv('TWITTER_CONSUMER_KEY')
-consumer_secret = os.getenv('TWITTER_CONSUMER_SECRET')
-access_token = os.getenv('TWITTER_ACCESS_TOKEN')
-access_token_secret = os.getenv('TWITTER_ACCESS_TOKEN_SECRET')
-bearer_token = os.getenv('TWITTER_BEARER_TOKEN')
+consumer_key = os.getenv('********')
+consumer_secret = os.getenv('*********')
+access_token = os.getenv('*******')
+access_token_secret = os.getenv('********')
+bearer_token = os.getenv('********')
 
 auth = tweepy.OAuth1UserHandler(
     consumer_key, consumer_secret,
@@ -42,7 +42,7 @@ stream_listener = MyStreamListener(bearer_token=bearer_token)
 stream_listener.filter()
 
 # Example usage
-stream_listener = MyStreamListener(bearer_token='YOUR_BEARER_TOKEN')
+stream_listener = MyStreamListener(bearer_token='*************')
 stream_listener.add_rules(tweepy.StreamRule(f"from:{Dartmouth_handle}"))
 stream_listener.filter()
 
@@ -53,8 +53,8 @@ form_url = extract_url_from_tweet(tweet_text)
 
 
 # Test credentials and form details
-username = "benjamin.k.amoh.th@dartmouth.edu"
-password = "Elyon@jehowa0"
+username = "**********"
+password = "*********"
 form_details = {
     'field_value': 'Some value',  # Example: You'll replace this with actual data you want to submit
 }

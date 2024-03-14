@@ -22,7 +22,7 @@ def get_driver():
     #options.add_argument('headless')  # Runs Chrome in headless mode.
     #return webdriver.Chrome(executable_path=DRIVER_PATH, options=options)
 
-    service = ChromeService(executable_path='/Users/mac/Bot/chromedriver-mac-x64/chromedriver')
+    service = ChromeService(executable_path='**********')
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')  # Uncomment if you want to run Chrome in headless mode
     driver = webdriver.Chrome(service=service, options=options)

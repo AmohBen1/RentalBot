@@ -3,10 +3,10 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Email configuration
-EMAIL_HOST = 'smtp.gmail.com'  # SMTP server (e.g., smtp.gmail.com for Gmail)
-EMAIL_PORT = 587  # SMTP port (e.g., 587 for TLS)
-EMAIL_ADDRESS = 'amoh81benjamin@gmail.com'  # Your email address
-EMAIL_PASSWORD = 'pkxeususxdungoeg'  # Your email password or app-specific password
+EMAIL_HOST = '*********'  # SMTP server (e.g., smtp.gmail.com for Gmail)
+EMAIL_PORT = '******'  # SMTP port (e.g., 587 for TLS)
+EMAIL_ADDRESS = '**********'  # Your email address
+EMAIL_PASSWORD = '************'  # Your email password or app-specific password
 
 def send_notification(subject, message):
     """
